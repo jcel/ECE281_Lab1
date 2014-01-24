@@ -39,10 +39,30 @@ entity Lab1_Combs is
 end Lab1_Combs;
 
 architecture Behavioral of Lab1_Combs is
-signal s1 : std_logic;
-signal s2 : std_logic_vector(3 downto 0);
+signal D : std_logic;
+signal E : std_logic;
+signal F : std_logic;
+signal G : std_logic;
+signal H : std_logic;
+signal I : std_logic;
+signal A_NOT : std_logic;
+signal B_NOT : std_logic;
+signal C_NOT : std_logic;
+
 begin
 
+A_NOT <= not A;
+B_NOT <= not B;
+C_NOT <= not C;
+D <= A_NOT and C;
+E <= A_NOT and b and C_NOT;
+F <= A and B_NOT and C_NOT;
+G <= D or E;
+X <= F or G;
+H <= B and C_NOT;
+I <= B_NOT and C;
+Y <= H or I;
+C <= Z;
 
 end Behavioral;
 
