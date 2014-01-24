@@ -9,7 +9,7 @@ Lab 1: 2's Complement Circuit
 
 ######Truth Table for Expected Values
 
-|A|B|C||X|Y|Z|
+|A|B|C|X|Y|Z|
 |---|---|---|---|---|---|
 |0|0|0|0|0|0|
 |0|0|1|1|1|1|
