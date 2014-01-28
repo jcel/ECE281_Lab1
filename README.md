@@ -38,3 +38,21 @@ Lab 1: 2's Complement Circuit
 
 ######Analysis
 Judging by the specifications listed on the truth table being matched completely by the waveform image, I believe the circuit I coded is an effective circuit to convert a binary input to its 2's Complement.
+
+####Post-Lab Data Analysis
+
+######Values Simulated on Nexys 2 Board
+
+|A|B|C|X|Y|Z|
+|---|---|---|---|---|---|
+|0|0|0|0|0|0|
+|0|0|1|1|1|1|
+|0|1|0|1|1|0|
+|0|1|1|1|0|1|
+|1|0|0|1|0|0|
+|1|0|1|0|1|1|
+|1|1|0|0|1|0|
+|1|1|1|0|0|1|
+
+######Analysis
+The circuit performed admirably, having all inputs converted into the correct outputs.  Because of this fact, I must believe the code transfered correctly into the hardware and no errors made their way into the hardware side of the project.
