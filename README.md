@@ -41,6 +41,10 @@ Judging by the specifications listed on the truth table being matched completely
 
 ####Post-Lab Data Analysis
 
+######Debugging
+
+Minor errors in the VHDL and UCF files were fixed to make the program run on the FPGA
+
 ######Values Simulated on Nexys 2 Board
 
 |A|B|C|X|Y|Z|
